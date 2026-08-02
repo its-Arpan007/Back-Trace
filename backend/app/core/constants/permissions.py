@@ -1,0 +1,10 @@
+class Permission:
+    DIAGNOSIS_READ = "diagnosis:read"
+    DIAGNOSIS_EXECUTE = "diagnosis:execute"
+    MASTERY_READ = "mastery:read"
+    MASTERY_WRITE = "mastery:write"
+    RECOMMENDATION_READ = "recommendation:read"
+    ANALYTICS_READ = "analytics:read"
+    CONTENT_MANAGE = "content:manage"
+    USER_MANAGE = "user:manage"
+    SYSTEM_ADMIN = "system:admin"

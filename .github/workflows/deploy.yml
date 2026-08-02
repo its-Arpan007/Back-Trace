@@ -1,0 +1,29 @@
+name: BACKTRACE Continuous Deployment (CD)
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  deploy-production:
+    name: Production Deployment to Kubernetes
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Authenticate with Container Registry
+        run: |
+          echo "Authenticating with container registry..."
+
+      - name: Build & Push Docker Image
+        run: |
+          docker build -t gcr.io/backtrace-prod/backend:${{ github.ref_name }} -f backend/Dockerfile .
+          docker tag gcr.io/backtrace-prod/backend:${{ github.ref_name }} gcr.io/backtrace-prod/backend:latest
+
+      - name: Deploy to Kubernetes Cluster (kubectl)
+        run: |
+          echo "Applying Kubernetes Manifests..."
+          # kubectl apply -f deploy/k8s/
+          # kubectl rollout status deployment/backtrace-backend -n backtrace-prod

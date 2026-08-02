@@ -1,0 +1,11 @@
+{
+  "graph_version": "1.0.0",
+  "created_at": "2026-08-01T00:00:00Z",
+  "updated_at": "2026-08-01T00:00:00Z",
+  "author": "BACKTRACE Learning Intelligence Team",
+  "domain": "science",
+  "status": "active",
+  "description": "General Science prerequisite knowledge graph",
+  "nodes": ["SCI_CELL_01"],
+  "edges": []
+}

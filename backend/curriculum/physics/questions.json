@@ -1,0 +1,9 @@
+[
+  {
+    "id": "Q_PHYS_001",
+    "concept_id": "PHYS_MECH_01",
+    "prompt": "What is the formula for Newton's Second Law of Motion?",
+    "options": ["F = ma", "E = mc^2", "V = IR", "P = IV"],
+    "correct_answer": "F = ma"
+  }
+]

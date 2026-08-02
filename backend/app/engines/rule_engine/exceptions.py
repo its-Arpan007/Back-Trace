@@ -1,0 +1,2 @@
+class RuleEngineException(Exception):
+    pass

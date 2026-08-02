@@ -1,0 +1,6 @@
+{
+  "name": "Biology Plugin",
+  "version": "1.0.0",
+  "domain": "biology",
+  "description": "Registers Cellular Biology & Life Sciences concepts, questions, graph dependencies, resources, and rules"
+}

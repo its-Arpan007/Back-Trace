@@ -1,0 +1,2 @@
+class AnalyticsEngineException(Exception):
+    pass

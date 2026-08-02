@@ -1,0 +1,6 @@
+{
+  "name": "Physics Plugin",
+  "version": "1.0.0",
+  "domain": "physics",
+  "description": "Registers Classical Mechanics & Physics concepts, questions, graph dependencies, resources, and rules"
+}

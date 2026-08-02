@@ -1,0 +1,9 @@
+[
+  {
+    "id": "Q_DSA_001",
+    "concept_id": "DSA_ARRAYS_01",
+    "prompt": "What is the worst-case time complexity of accessing an element in an array by index?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correct_answer": "O(1)"
+  }
+]

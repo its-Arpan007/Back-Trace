@@ -1,0 +1,2 @@
+class DecisionEngineException(Exception):
+    pass

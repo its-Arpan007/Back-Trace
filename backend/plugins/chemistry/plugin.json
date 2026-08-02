@@ -1,0 +1,6 @@
+{
+  "name": "Chemistry Plugin",
+  "version": "1.0.0",
+  "domain": "chemistry",
+  "description": "Registers Chemical Bonding & Chemistry concepts, questions, graph dependencies, resources, and rules"
+}

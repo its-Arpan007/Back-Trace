@@ -1,0 +1,53 @@
+# BACKTRACE Root .gitignore
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+.mypy_cache/
+
+# Alembic
+alembic/versions/*.pyc
+
+# Flutter / Dart
+frontend/.dart_tool/
+frontend/.fvm/
+frontend/.pub/
+frontend/.pub-cache/
+frontend/build/
+frontend/ephemeral/
+frontend/ios/Pods/
+frontend/ios/Runner.xcworkspace
+frontend/ios/Flutter/Flutter.podspec
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/App.framework
+frontend/android/.gradle/
+frontend/android/captures/
+frontend/android/app/debug/
+frontend/android/app/profile/
+frontend/android/app/release/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key

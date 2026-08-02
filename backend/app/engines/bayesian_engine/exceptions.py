@@ -1,0 +1,2 @@
+class BayesianEngineException(Exception):
+    pass

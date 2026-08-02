@@ -1,0 +1,2 @@
+class MasteryEngineException(Exception):
+    pass

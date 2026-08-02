@@ -1,0 +1,2 @@
+class RecommendationEngineException(Exception):
+    pass

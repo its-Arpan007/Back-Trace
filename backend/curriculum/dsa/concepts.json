@@ -1,0 +1,12 @@
+[
+  {
+    "id": "DSA_ARRAYS_01",
+    "name": "Array Traversal & Memory Layout",
+    "description": "Contiguous memory allocation and index-based access pattern"
+  },
+  {
+    "id": "DSA_TREES_01",
+    "name": "Binary Search Tree Properties",
+    "description": "Left child smaller, right child larger invariant"
+  }
+]

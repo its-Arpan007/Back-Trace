@@ -1,0 +1,2 @@
+class KnowledgeGraphEngineException(Exception):
+    pass

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "Q_SCI_001",
+    "concept_id": "SCI_CELL_01",
+    "prompt": "Which organelle is known as the powerhouse of the cell?",
+    "options": ["Mitochondria", "Nucleus", "Ribosome", "Golgi Apparatus"],
+    "correct_answer": "Mitochondria"
+  }
+]

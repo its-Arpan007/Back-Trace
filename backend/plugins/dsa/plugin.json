@@ -1,0 +1,6 @@
+{
+  "name": "Data Structures & Algorithms Plugin",
+  "version": "1.0.0",
+  "domain": "dsa",
+  "description": "Registers DSA concepts, questions, graph dependencies, resources, and misconception rules"
+}

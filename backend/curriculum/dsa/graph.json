@@ -1,0 +1,17 @@
+{
+  "graph_version": "1.0.0",
+  "created_at": "2026-08-01T00:00:00Z",
+  "updated_at": "2026-08-01T00:00:00Z",
+  "author": "BACKTRACE Learning Intelligence Team",
+  "domain": "dsa",
+  "status": "active",
+  "description": "Data Structures & Algorithms prerequisite knowledge graph",
+  "nodes": ["DSA_ARRAYS_01", "DSA_TREES_01"],
+  "edges": [
+    {
+      "source": "DSA_ARRAYS_01",
+      "target": "DSA_TREES_01",
+      "relation": "PREREQUISITE_FOR"
+    }
+  ]
+}

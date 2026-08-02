@@ -1,0 +1,9 @@
+[
+  {
+    "id": "Q_MATH_001",
+    "concept_id": "MATH_CALC_01",
+    "prompt": "Evaluate the limit as x approaches 0 for sin(x)/x",
+    "options": ["1", "0", "Undefined", "Infinity"],
+    "correct_answer": "1"
+  }
+]

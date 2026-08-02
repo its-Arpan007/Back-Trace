@@ -1,0 +1,6 @@
+{
+  "name": "Mathematics Plugin",
+  "version": "1.0.0",
+  "domain": "math",
+  "description": "Registers Calculus & Algebra concepts, questions, graph dependencies, resources, and rules"
+}
